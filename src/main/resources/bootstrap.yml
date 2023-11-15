@@ -1,0 +1,6 @@
+encrypt:
+#  key: 8ehf32ikdcjc103dowklsncls
+  key-store:
+    location: file://${user.home}/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
